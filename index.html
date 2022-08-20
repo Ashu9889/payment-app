@@ -27,32 +27,39 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/86fcda71bf.js" crossorigin="anonymous"></script>
 </head>
-<body class="p-[20px]">
-<!-- 
+<body >
+
     <header>
-        <nav class=" flex flex-row  flex-wrap  justify-around px-[20px] py-[20px] items-center shadow-lg shadow-black ">
+        <nav class=" flex flex-row  flex-wrap justify-between  py-[20px] items-center shadow-lg shadow-black  ">
             <div class="logo">
                 <img class="w-[11rem]" src="./assets/paytm_logo.png" alt="">
             </div>
-            <div class=" flex font-bold ">
-                <a class="px-10" href=""> Paytm for Consumer</a>
-                <a  class="px-10" href="">Paytm for Business
-                <a  class="px-10" href=""> Company</a> </a> 
-                <a  class="px-10" href=""> Investor Relations</a>
-                <a  class="px-10" href="">Career</a> 
+            <div class="font-bold lg:block hidden">
+                <a class="px-2" href=""> Paytm for Consumer</a>
+                <a  class="px-2" href="">Paytm for Business</a> 
+                <a  class="px-2" href=""> Company</a> 
+                <a  class="px-2" href=""> Investor Relations</a>
+                <a  class="px-2" href="">Career</a> 
             
 
-            </div>
+            </div>`
               
-            <div class="group flex bg-sky-500  hover:bg-blue-800  rounded-[30px]  items-center px-[1.5px] py-[1px]">
+            <div class="group flex bg-sky-500  hover:bg-blue-800  rounded-[30px]  items-center px-[1.5px] py-[1px] hidden lg:flex">
                 <a href="" class=" font-bold text-white px-4">Sign In</a>
-                <img class="bg-blue-800 rounded-[50%] group-hover:bg-sky-500 "  src="./assets/9a65db05.svg" alt="">
+                <img class="bg-blue-800 rounded-[50%] group-hover:bg-sky-500 "  src="./assets/man.svg" alt="">
+               
+            </div>
+
+            <div class="group flex bg-sky-500  hover:bg-blue-800  rounded  items-center px-[1.5px] py-[1px] lg:hidden">
+                <a href="" class=" text-[20px] font-bold text-white px-4"><i class="fa-solid fa-bars"></i></a>
+                <!-- <img class="bg-blue-800 rounded-[50%] group-hover:bg-sky-500 "  src="./assets/man.svg" alt=""> -->
                
             </div>
            
+           
             
         </nav>
-    </header> -->
+    </header>
     <div class="text-center bg-[#f6f6f6] h-[3rem]" >
         <span class="font-semibold"> No Wallet KYC Required </span> <span class="px-1 md:text-[25px]"> 😊 </span> 
         to pay using UPI on Paytm. <a class="font-semibold" href="">Learn More</a>
