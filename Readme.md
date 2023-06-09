@@ -1,4 +1,4 @@
-# Paytm
+# Payment App
 
 > ## [Ashutosh Singh]()
 
